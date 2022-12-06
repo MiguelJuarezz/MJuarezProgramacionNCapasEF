@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dbc3d10f4b974ebea803e46548abb99d" Name="Diagram1">
+        <EntityTypeShape EntityType="MJuarezProgramacionNCapasModel.Aseguradora" Width="1.5" PointX="6.75" PointY="5.75" />
+        <EntityTypeShape EntityType="MJuarezProgramacionNCapasModel.Colonia" Width="1.5" PointX="3" PointY="7.75" />
+        <EntityTypeShape EntityType="MJuarezProgramacionNCapasModel.Direccion" Width="1.5" PointX="5.25" PointY="2.5" />
+        <EntityTypeShape EntityType="MJuarezProgramacionNCapasModel.Empleado" Width="1.5" PointX="10" PointY="1" />
+        <EntityTypeShape EntityType="MJuarezProgramacionNCapasModel.Empresa" Width="1.5" PointX="7.75" PointY="1.625" />
+        <EntityTypeShape EntityType="MJuarezProgramacionNCapasModel.Estado" Width="1.5" PointX="1.5" PointY="10.875" />
+        <EntityTypeShape EntityType="MJuarezProgramacionNCapasModel.Municipio" Width="1.5" PointX="0.75" PointY="7.875" />
+        <EntityTypeShape EntityType="MJuarezProgramacionNCapasModel.Pai" Width="1.5" PointX="1.5" PointY="14" />
+        <EntityTypeShape EntityType="MJuarezProgramacionNCapasModel.Rol" Width="1.5" PointX="0.75" PointY="3" />
+        <EntityTypeShape EntityType="MJuarezProgramacionNCapasModel.Usuario" Width="1.5" PointX="3" PointY="1.625" />
+        <AssociationConnector Association="MJuarezProgramacionNCapasModel.FK__Asegurado__IdUsu__5441852A" />
+        <AssociationConnector Association="MJuarezProgramacionNCapasModel.FK__Colonia__IdMunic__6D0D32F4" />
+        <AssociationConnector Association="MJuarezProgramacionNCapasModel.FK__Direccion__IdCol__6FE99F9F" />
+        <AssociationConnector Association="MJuarezProgramacionNCapasModel.FK__Direccion__IdUsu__70DDC3D8" />
+        <AssociationConnector Association="MJuarezProgramacionNCapasModel.FK__Empleado__IdEmpr__0F624AF8" />
+        <AssociationConnector Association="MJuarezProgramacionNCapasModel.FK__Estado__IdPais__656C112C" />
+        <AssociationConnector Association="MJuarezProgramacionNCapasModel.FK__Municipio__IdEst__68487DD7" />
+        <AssociationConnector Association="MJuarezProgramacionNCapasModel.FK__Usuario__IdRol__3D5E1FD2" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
