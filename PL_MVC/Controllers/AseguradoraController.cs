@@ -36,6 +36,7 @@ namespace PL_MVC.Controllers
             aseguradora.Usuario= new ML.Usuario();
             aseguradora.Usuario.Rol = new ML.Rol();
 
+
             ML.Result resultUsuario = BL.Usuario.GetAllEF(aseguradora.Usuario);
 
             if (IdAseguradora == null)

@@ -30,7 +30,8 @@ namespace SL_WCF
                 Correct = result.Correct,
                 Ex = result.Ex,
                 ErrorMessage = result.ErrorMessage,
-                Object = result.Object
+                Object = result.Object,
+                Objects= result.Objects
             };
         }
 

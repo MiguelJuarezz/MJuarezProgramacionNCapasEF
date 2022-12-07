@@ -23,5 +23,9 @@ namespace SL_WCF
 
         [OperationContract]
         SL_WCF.Result Delete(int IdAseguradora);
+
+        [OperationContract]
+        [ServiceKnownType(typeof(ML.Aseguradora))]
+        SL_WCF.Result GetById(int IdAseguradora);
     }
 }
