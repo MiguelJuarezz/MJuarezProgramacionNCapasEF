@@ -33,10 +33,10 @@ namespace PL_MVC.Controllers
         public ActionResult Form(int? IdAseguradora)
         {
             ML.Aseguradora aseguradora = new ML.Aseguradora();
-            ML.Usuario usuario = new ML.Usuario();
-            aseguradora.Usuario = new ML.Usuario();
+            aseguradora.Usuario= new ML.Usuario();
+            aseguradora.Usuario.Rol = new ML.Rol();
 
-            ML.Result resultUsuario = BL.Usuario.GetAllEF(usuario);
+            ML.Result resultUsuario = BL.Usuario.GetAllEF(aseguradora.Usuario);
 
             if (IdAseguradora == null)
             {
