@@ -14,7 +14,7 @@ namespace SL_WCF
         [OperationContract]
         SL_WCF.Result Add(ML.Aseguradora aseguradora);
 
-        [OperationContract]
+        [OperationContract] 
         [ServiceKnownType(typeof(ML.Aseguradora))]
         SL_WCF.Result GetAll();
 

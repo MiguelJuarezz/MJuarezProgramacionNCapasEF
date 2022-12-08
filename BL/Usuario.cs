@@ -803,7 +803,7 @@ namespace BL
 
                             usuarioobj.Rol = new ML.Rol();
                             usuarioobj.Rol.IdRol = obj.IdRol;
-                            usuarioobj.Rol.Nombre = obj.RolNombre;
+                            usuarioobj.Rol.Nombre = obj.RolNombre; 
 
                             usuarioobj.Direccion = new ML.Direccion();
                             usuarioobj.Direccion.IdDireccion = obj.IdDireccion;
